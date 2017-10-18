@@ -51,7 +51,7 @@ class FCViewController: UIViewController, UITableViewDataSource, UITableViewDele
 
     self.clientTable.register(UITableViewCell.self, forCellReuseIdentifier: "tableViewCell")
 
-    configureDatabase()
+    configureStorage()
     configureStorage()
     configureRemoteConfig()
     fetchConfig()
